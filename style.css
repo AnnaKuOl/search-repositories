@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    display: flex;
+    gap: 10px;
+    margin: 0 0 30px 0 ;
+    padding: 20px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+}
+.search__title{
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1 1 auto;
+
+}
+.search__field{
+    margin-left: 15px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search__btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+.result{
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;
+    
+}
+.result__title{
+    font-size: 20px;
+    font-weight: 600; 
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.result__item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid #666464;
+    padding: 10px;
+}
+.result__link{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.result__link:hover{
+    color: rgb(31, 80, 194);
+}
+.result__link:visited{
+    color: rgb(193, 75, 7);
+}
+.result__name{
+    font-style: italic;    
+    padding-left: 10px;
+}
+.result__date{
+    color: #666464;
+    padding-left: 10px;
+
+}
+.result__none {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.invisible{
+    display: none;
+}

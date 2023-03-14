@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Поиск репозиториев github по подстроке</title>
+</head>
+<body>
+    <div class="container">
+        <form class = "search" action="#">
+            <label class="search__title">Введите текст :<input class="search__field" type="text"></label>
+            <input class="search__btn" type="submit" value="Поиск">
+        </form>
+        <h2 class="result__title">Результат поиска <span class="result__subtitle"></span>:</h2>
+        <ul class="result">
+
+        </ul>
+        <p class="result__none invisible">По вашему запросу ничего не найдено</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
